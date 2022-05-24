@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>207博物館</title>
+    <link
+      rel="stylesheet"
+      href="assets/css/national_palace_museum_page_style.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monofett&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar_logo">
+        <li>
+          <a href="http://127.0.0.1:5500/index.html"
+            ><img
+              src="assets/images/home-icon-2.png"
+              alt="home-logo"
+          /></a>
+        </li>
+      </ul>
+
+      <ul class="page_label">
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverStation()"
+              onmouseout="mouseOutStation()"
+            ></li>
+          </a>
+          <p class="label_station">新北投駅</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverLibrary()"
+              onmouseout="mouseOutLibrary()"
+            ></li>
+          </a>
+          <p class="label_Library">北投図書館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverSpaMuseum()"
+              onmouseout="mouseOutSpaMuseum()"
+            ></li>
+          </a>
+          <p class="label_SpaMuseum">北投温泉博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPlumBossom()"
+              onmouseout="mouseOutPlumBossom()"
+            ></li>
+          </a>
+          <p class="label_PlumBossom">梅庭</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverNationalPalaceMuseum()"
+              onmouseout="mouseOutNationalPalaceMuseum()"
+            ></li>
+          </a>
+          <p class="label_NationalPalaceMuseum">国立故宮博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverKnowledgeGod()"
+              onmouseout="mouseOutKnowledgeGod()"
+            ></li>
+          </a>
+          <p class="label_KnowledgeGod">文昌宮</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPocketMuseum()"
+              onmouseout="mouseOutPocketMuseum()"
+            ></li>
+          </a>
+          <p class="label_PocketMuseum">袖珍博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverConfucius()"
+              onmouseout="mouseOutConfucius()"
+            ></li>
+          </a>
+          <p class="label_Confucius">孔子廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverChineseCupid()"
+              onmouseout="mouseOutChineseCupid()"
+            ></li>
+          </a>
+          <p class="label_ChineseCupid">霞海城隍廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOver207Museum()"
+              onmouseout="mouseOut207Museum()"
+            ></li>
+          </a>
+          <p class="label_207Museum">207博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverMazu()"
+              onmouseout="mouseOutMazu()"
+            ></li>
+          </a>
+          <p class="label_Mazu">天后宮</p>
+        </div>
+      </ul>
+
+      <ul class="navbar_list-button" onclick="navbarListButton()">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+    <aside class="aside">
+      <ul class="aside_text">
+        <li><a href="http://127.0.0.1:5500/index.html">ホームページ</a></li>
+        <li></li>
+        <li><a href="http://127.0.0.1:5500/list.html">List 目次</a></li>
+        <li></li>
+        <li><a href="">制作計画書について</a></li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <ul class="main_aside">
+        <li class="main_aside_note">
+          <img
+            src="assets/images/207museum_image/note.png"
+            alt="note"
+          />
+          <div>
+            <p class="note_title">207博物館</p>
+            <p class="note_date">日付：　2021/11/05</p>
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="main_stamp">
+        <input type="radio" id="stamp_control-1" name="control" checked />
+        <input type="radio" id="stamp_control-2" name="control" />
+
+        <img
+          class="slide_stamp"
+          src="assets/images/207museum_image/207museum_stamp/207museum-stamp-01.jpg"
+          alt="207museum-stamp-01"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/207museum_image/207museum_stamp/207museum-stamp-02.jpg"
+          alt="207museum-stamp-02"
+        />
+
+        <div class="stamp_controls-visible">
+          <label for="stamp_control-1"></label>
+          <label for="stamp_control-2"></label>
+        </div>
+      </ul>
+
+      <ul class="main_word">
+        <p class="main_word_title">思い出を呼び起こられる舞台</p>
+        <p class="main_word_text">
+          　迪化街で参観するつもりだった。207博物館の前に通過していた時には地面における蜂の図案に人目を惹かれた。昔の建物はテラゾ床と豊かな色である幾何図形から構成する素敵なタイルがよく見える。私の昔ごろの家に似ているため、見てみよう。<br />　今回のテーマは「古い建物の化粧師」と「お弁当」の展覧であった。離島の金門県の獅子の石像で知られていて、台南や澎湖や金門でよく見られる。強い風を止める意味と飾りの機能がある。そして、壁や屋根の飾りも必要がある。色々なタイルの組み合わせによって、別々の美しさが現れる。<br />　展覧の内容は思いの中にいつものことだと思ったのに、時代を変わったため現在にはほとんど見られなかったものだ。周囲のことをもちろんと思って、いつの間にか見慣れたものは私の生活から失ったようだ。展覧を楽しみにしたのに、ちょっと寂しかった。
+        </p>
+      </ul>
+
+      <ul class="main_picture">
+        <img
+          src="assets/images/207museum_image/207museum_picture/207museum_picture-01.JPG"
+          alt="national_palace_museum_picture-01"
+        />
+        <img
+          src="assets/images/207museum_image/207museum_picture/207museum_picture-02.JPG"
+          alt="national_palace_museum_picture-02"
+        />
+        <img
+          src="assets/images/207museum_image/207museum_picture/207museum_picture-03.JPG"
+          alt="national_palace_museum_picture-03"
+        />
+        <img
+          src="assets/images/207museum_image/207museum_picture/207museum_picture-04.JPG"
+          alt="national_palace_museum_picture-04"
+        />
+        <img
+          src="assets/images/207museum_image/207museum_picture/207museum_picture-05.JPG"
+          alt="national_palace_museum_picture-05"
+        />
+        <img
+          src="assets/images/207museum_image/207museum_picture/207museum_picture-06.JPG"
+          alt="national_palace_museum_picture-06"
+        />
+        <img
+          src="assets/images/207museum_image/207museum_picture/207museum_picture-07.JPG"
+          alt="national_palace_museum_picture-07"
+        />
+        <img
+          src="assets/images/207museum_image/207museum_picture/207museum_picture-08.JPG"
+          alt="national_palace_museum_picture-08"
+        />
+        <img
+          src="assets/images/207museum_image/207museum_picture/207museum_picture-09.JPG"
+          alt="national_palace_museum_picture-09"
+        />
+      </ul>
+    </main>
+
+    <footer>
+      <div>© 2022　110年度　淡江大学日本語文学系卒業制作</div>
+    </footer>
+
+    <script src="assets/javascript/index_javascript.js"></script>
+    <script src="assets/javascript/national_palace_museum_javascript.js"></script>
+    <script></script>
+  </body>
+</html>
